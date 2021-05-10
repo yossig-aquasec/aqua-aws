@@ -1,3 +1,4 @@
+include::variables.adoc[]
 
 
 = image:https://avatars3.githubusercontent.com/u/12783832?s=200&v=4[height="100" width="100"] Aqua Security AWS Deployments
@@ -11,3 +12,6 @@ This repository is for link:https://www.aquasec.com[Aqua Security] deployments r
 * **ECS Fargate** - link:cloudformation/aqua-ecs-fargate/[Aqua Security ECS Fargate deployment]: Instructions for creating a production-grade deployment of Aqua Enterprise (Server and Gateway) on an Amazon ECS Fargate cluster
 * **Enforcer** - link:cloudformation/aqua-ecs-agent/[*Aqua Security ECS Agent*](https://github.com/aquasecurity/aqua-aws/tree/6.2/cloudformation/aqua-ecs-agent): Deploy an Aqua Enforcer as a DaemonSet on an existing ECS cluster
 * **Serverless** - link:cloudformation/aqua-lambda/[*Aqua Security Serverless*]: Deploy the Aqua audit handler stack with SQS, to handle audit events reported by Aqua NanoEnforcers (for function runtime enforcement)
+
+{version}
+
