@@ -4,7 +4,7 @@
 
 This repository is for [Aqua Security](https://www.aquasec.com) deployments related to [Amazon Web Services (AWS)](https://aws.amazon.com/).
 
-## Navigation and description
+## Navigation and description1
 
 * **ECS CloudFormation** - [*Aqua Security ECS deployment*](https://github.com/aquasecurity/aqua-aws/tree/master/cloudformation/aqua-ecs): Instructions for creating a production-grade deployment of Aqua Enterprise (Server, Gateway, and Aqua Enforcer) on an Amazon ECS cluster, using either a CloudFormation temploate or a command line interface
 * **ECS Terraform** - [*Aqua Security ECS deployment*](https://github.com/aquasecurity/aqua-aws/tree/master/terraform): As above, using [Terraform](https://www.terraform.io/)
