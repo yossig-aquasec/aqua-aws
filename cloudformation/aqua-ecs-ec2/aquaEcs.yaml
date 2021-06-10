@@ -92,7 +92,7 @@ Parameters:
     Type: 'List<AWS::EC2::Subnet::Id>'
     Description: Select external ones if you need internet access.
   LBScheme:
-    Type: String
+    Type: StringRdsInstanceName
     Default: internet-facing
     AllowedValues:
       - internet-facing
